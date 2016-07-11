@@ -1,6 +1,6 @@
 # Lobbipad company API
 
-This repository contains documentation for the Lobbipad company REST API. If you need any features which are missing in this API or find any issues, please email us at support@lobbipad.com or file an issue on this repository.
+This repository contains documentation for the Lobbipad company REST API. If you need any features which are missing in this API or find any issues, please email us at support@lobbipad.com or file an issue on this repository. If you are in doubt if the issue can be security related, please disclose it in private (support@lobbipad.com) first.
 
 # Authentication
 You can generate a token in the web dashboard of your account. Log into your account and visit the [API settings page](https://lobbipad.com/settings/api).
