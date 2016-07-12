@@ -35,6 +35,8 @@ Webhook data is sent as JSON in the POST request body. The body will contain the
 }
 ```
 
+You can easily debug the sent responses by temporarily using a service like [requestb.in](http://requestb.in/).
+
 ## Responding successfully
 
 To respond successful, you need to respond with a `2xx` status code. If this is not the case we will retry the delivery. If your app wasn't able to respond with a status in the `2xx` range within 3 minutes, we will stop trying to deliver the payload.
