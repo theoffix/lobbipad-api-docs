@@ -35,7 +35,7 @@ Webhook data is sent as JSON in the POST request body. The body will contain the
 }
 ```
 
-You can easily debug the sent responses by temporarily using a service like [requestb.in](http://requestb.in/).
+You can easily debug the sent responses by temporarily using a service like [hookb.in](https://hookb.in).
 
 ## Responding successfully
 
