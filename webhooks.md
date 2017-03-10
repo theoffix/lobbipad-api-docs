@@ -1,4 +1,4 @@
-# Webhook API (beta)
+# Webhook API
 
 This repository contains documentation for the Lobbipad Webhook API. If you need any features which are missing in this API or find any issues, please email us at support@lobbipad.com or file an issue on this repository. If you are in doubt if the issue can be security related, please disclose it in private (support@lobbipad.com) first.
 
@@ -19,9 +19,10 @@ Webhook data is sent as JSON in the POST request body. The body will contain the
 {
   "type": "visits.created",
   "data": {
+    "visitor": {...},
+    "host": {...},
     "foo": "bar",
     "beep": "boop",
-    "visitor": {...}
   }
 }
 
