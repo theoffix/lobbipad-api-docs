@@ -43,4 +43,8 @@ You can easily debug the sent responses by temporarily using a service like [hoo
 To respond successful, you need to respond with a `2xx` status code. If this is not the case we will retry the delivery. If your app wasn't able to respond with a status in the `2xx` range within 3 minutes, we will stop trying to deliver the payload.
 
 ## Basic authentication
-As this is just plain HTTP, you can use [basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) to use a shared secret on your endpoint URL.
+As this is just unauthenticated HTTPS, you can use [basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) to use a shared secret on your endpoint URL.
+
+---
+
+If you need any features which are missing in this API or find any issues, please email us at support@lobbipad.com or file an issue on this repository. If you are in doubt if the issue can be security related, please disclose it in private (support@lobbipad.com) first.
