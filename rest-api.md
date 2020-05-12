@@ -21,6 +21,14 @@ GET /api/v1/visits/today
 
 The API will return a JSON array of your company's visits of the current day.
 
+### Checkout all the visitors
+
+```
+GET /api/v1/visits/search?checkoutall=true
+```
+
+The API will checkout all the visitors who has checked in. 
+
 ### Hosts Mass Sync
 
 ```
