@@ -15,10 +15,5 @@ On our  [integrations page](https://lobbipad.com/settings/api/integrations) you 
 Pick 'Add to Slack' and start the process of linking your Slack company account to Lobbipad. We only request the permissions we need to send your hosts private messages when a visitor arrives.
 First you need to pick the correct Slack company account.
 
-![](images/permission.png =20x20)
-
-
-<img src="./images/permission.png" alt="drawing" style="width:20%;"/>
-
 
 After connecting Lobbipad with Slack, on the same page in Lobbipad dashboard, click enable slack integration and save company settings.
