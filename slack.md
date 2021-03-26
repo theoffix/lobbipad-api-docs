@@ -4,7 +4,7 @@ Lobbipad Slack integration allow Lobbipad hosts to receive Slack notification wh
 their visitors check in. 
 
 
-###How to install Slack app
+### How to install Slack app
 
 
 On our  [integrations page](https://lobbipad.com/settings/api/integrations) you can find the Slack option.
