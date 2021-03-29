@@ -6,7 +6,7 @@ their visitors check in.
 
 ### How to install Slack app
 
-To install and use Slack integrtion you need to have a Lobbipad account.
+To install and use Lobbipad Slack integrtion first you need to have an account in [Lobbipad](http://web.lobbipad.com/).
 On our  [integrations page](https://lobbipad.com/settings/api/integrations) you can find the Slack option.
 
 ![alt text](images/slack.png)
