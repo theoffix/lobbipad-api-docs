@@ -6,7 +6,7 @@ their visitors check in.
 
 ### How to install Slack app
 
-
+To install and use Slack integrtion you need to have a Lobbipad account.
 On our  [integrations page](https://lobbipad.com/settings/api/integrations) you can find the Slack option.
 
 ![alt text](images/slack.png)
@@ -17,3 +17,4 @@ First you need to pick the correct Slack company account.
 
 
 After connecting Lobbipad with Slack, on the same page in Lobbipad dashboard, click enable slack integration and save company settings.
+Then your hosts will receive a Slack notification when their visitors check-in. 
