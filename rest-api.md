@@ -29,6 +29,23 @@ GET /api/v1/visits/search?checkoutall=true
 
 The API will checkout all the visitors who has checked in. 
 
+### Get visits for department
+
+```
+GET /api/v1/visits
+```
+
+This endpoint returns previous visitor checkins. It support following params,
+
+- `department` - Department name
+- `date_from` - Visit checked in time start (eg: 01-04-2020 14:10)
+- `date_until` - Visit checked in time end (eg: 01-04-2020 14:10)
+- `host` - Host ID
+
+It supports following pagination params,
+- `limit` - return limit, default `10`
+- `offset`
+
 ### Hosts Mass Sync
 
 ```
